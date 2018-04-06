@@ -5,6 +5,11 @@ A tensorflow implementation of dense net on Street view house number(SVHN) datas
 
     A brief description of the Model is provided below.
 
+The files I have modified significantly are:
+  1.  preprocess.py
+  2.  train.py
+  3.  models.py
+  
 ### High level view
 
 Input layer -> Block 1 -> Transition 1 -> Block 2 -> Transition 2 -> Block 3 -> Batch Normalization -> Relu -> Global average pooling -> Fully connected layer
